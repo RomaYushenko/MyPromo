@@ -52,11 +52,13 @@ namespace fMain
         /// <param name="e"></param>
         private void bCreateProcess_Click(object sender, EventArgs e)
         {
-            bool flag;
-            FuncWinApiCreateProcess crProc = FuncWinApiCreateProcess.CreateInstanceCrProc();          
+            if (tbPathPog.Text != "")
+            {
+                bool flag;
+                FuncWinApiCreateProcess crProc = FuncWinApiCreateProcess.CreateInstanceCrProc();
 
-            PathFileName = tbPathPog.Text;
-            string[] str = PathFileName.Split('\\');
+                PathFileName = tbPathPog.Text;
+                string[] str = PathFileName.Split('\\');
                 if (str[0] == "C:" || str[0] == "D:" || str[0] == "E:" || str[0] == "F:")
                 {
                     flag = true;
@@ -67,7 +69,10 @@ namespace fMain
                     flag = false;
                     crProc.CreateProcessInPC(PathFileName, flag);
                 }
-            this.Close();
+                this.Close();
+            }
+            else
+                MessageBox.Show("Вы не вписали процесс который хотит запуссить", "Ошибка!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
     }
