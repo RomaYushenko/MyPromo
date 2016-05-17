@@ -10,3 +10,15 @@ D:\Учеба\ХАИ\4 семестр\КУРСАК\CoursProj_TaskManager\fMain\o
 D:\Учеба\ХАИ\4 семестр\КУРСАК\CoursProj_TaskManager\fMain\obj\Debug\fMain.fAuthor.resources
 D:\Учеба\ХАИ\4 семестр\КУРСАК\CoursProj_TaskManager\fMain\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
 D:\Учеба\ХАИ\4 семестр\КУРСАК\CoursProj_TaskManager\fMain\obj\Debug\fMain.fProperty.resources
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\bin\Debug\fMain.exe.config
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.exe
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.pdb
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\bin\Debug\fMain.exe
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\bin\Debug\fMain.pdb
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\TaskManager.csprojResolveAssemblyReference.cache
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.fAuthor.resources
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.fMain.resources
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.fCreateProcess.resources
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.fProperty.resources
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.Properties.Resources.resources
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\TaskManager.csproj.GenerateResource.Cache
