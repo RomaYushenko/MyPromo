@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="fMain.fAuthor">
+    <Position X="10" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>fAuthor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fMain.fCreateProcess">
+    <Position X="10" Y="4.5" Width="3.75" />
+    <Members>
+      <Field Name="bClose" Hidden="true" />
+      <Field Name="bCreateProcess" Hidden="true" />
+      <Field Name="bFileName" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="openFileDialog1" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="pictureBox1" Hidden="true" />
+      <Field Name="pictureBox2" Hidden="true" />
+      <Field Name="tbPathPog" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgCAACAAABAIAACAQAACAAAEAABAACAAgQBAEAA=</HashCode>
+      <FileName>fCreateProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fMain.fMain">
+    <Position X="10" Y="7" Width="4.25" />
+    <Members>
+      <Field Name="bAddProsess" Hidden="true" />
+      <Field Name="bDelProsess" Hidden="true" />
+      <Field Name="bInfoProsess" Hidden="true" />
+      <Field Name="bRefresh" Hidden="true" />
+      <Field Name="bSeveAs" Hidden="true" />
+      <Field Name="chPID" Hidden="true" />
+      <Field Name="chProcesses" Hidden="true" />
+      <Field Name="chWorkSet" Hidden="true" />
+      <Field Name="cmsAdd" Hidden="true" />
+      <Field Name="cmsDel" Hidden="true" />
+      <Field Name="cmsInfo" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="contextMenuStrip1" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="lvProcesses" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="saveFileDialog1" Hidden="true" />
+      <Field Name="statusStrip1" Hidden="true" />
+      <Field Name="stmiExit" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+      <Field Name="timerCountMemorStat" Hidden="true" />
+      <Field Name="toolStrip1" Hidden="true" />
+      <Field Name="toolStripSeparator1" Hidden="true" />
+      <Field Name="toolStripSeparator2" Hidden="true" />
+      <Field Name="toolStripStatusLabel1" Hidden="true" />
+      <Field Name="toolStripStatusLabel2" Hidden="true" />
+      <Field Name="toolStripStatusLabel3" Hidden="true" />
+      <Field Name="tsmiAuthor" Hidden="true" />
+      <Field Name="tsmiHelp" Hidden="true" />
+      <Field Name="tsmiSave" Hidden="true" />
+      <Field Name="tsmiSaveAs" Hidden="true" />
+      <Field Name="выключениеToolStripMenuItem" Hidden="true" />
+      <Field Name="выходToolStripMenuItem" Hidden="true" />
+      <Field Name="добавитьПроцессToolStripMenuItem" Hidden="true" />
+      <Field Name="завершениеToolStripMenuItem" Hidden="true" />
+      <Field Name="перезагрузкаToolStripMenuItem" Hidden="true" />
+      <Field Name="помощьToolStripMenuItem" Hidden="true" />
+      <Field Name="процессыToolStripMenuItem" Hidden="true" />
+      <Field Name="сhMamorSet" Hidden="true" />
+      <Field Name="сhPrioritet" Hidden="true" />
+      <Field Name="удалитьПроцессToolStripMenuItem" Hidden="true" />
+      <Field Name="файлToolStripMenuItem" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>H5QAEAkQAuKEEAAGAEaDQACCAiQIoAgDIBACDJJAIiE=</HashCode>
+      <FileName>fMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fMain.fProperty">
+    <Position X="10" Y="2" Width="3.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="lBasePrior" Hidden="true" />
+      <Field Name="lNameProcess" Hidden="true" />
+      <Field Name="lPagedMemorySize" Hidden="true" />
+      <Field Name="lPID" Hidden="true" />
+      <Field Name="lSource" Hidden="true" />
+      <Field Name="lStartTime" Hidden="true" />
+      <Field Name="lTotalTime" Hidden="true" />
+      <Field Name="lUsetTime" Hidden="true" />
+      <Field Name="lVersion" Hidden="true" />
+      <Field Name="lVirtualMemorySize" Hidden="true" />
+      <Field Name="lWorkSet" Hidden="true" />
+      <Field Name="tbDirect" Hidden="true" />
+      <Field Name="timer1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>8AQAAQAggCACgFAEAQCAAAgCAAAJIAAAACAEAAAAAAA=</HashCode>
+      <FileName>fProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fMain.FuncWinApiCreateProcess">
+    <Position X="7.75" Y="12.75" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="fMain.FuncWinApiCreateProcess.PROCESS_INFORMATION">
+        <TypeIdentifier>
+          <NewMemberFileName>FuncWinApiCreateProcess.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="fMain.FuncWinApiCreateProcess.STARTUPINFO">
+        <TypeIdentifier>
+          <NewMemberFileName>FuncWinApiCreateProcess.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="fMain.FuncWinApiCreateProcess.SECURITY_ATTRIBUTES">
+        <TypeIdentifier>
+          <NewMemberFileName>FuncWinApiCreateProcess.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAQAAAAAAAAAgAEAgAAA=</HashCode>
+      <FileName>FuncWinApiCreateProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fMain.FuncWinApiLoadCP">
+    <Position X="0.5" Y="11" Width="6" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQEAAQAAAEAAAAAQAAAAAAAAQEAAAQAAA=</HashCode>
+      <FileName>FuncWinApiLoadCP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fMain.FuncWinApiShutdownReboot">
+    <Position X="0.5" Y="15" Width="6.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="fMain.FuncWinApiShutdownReboot.TokPriv1Luid">
+        <TypeIdentifier>
+          <NewMemberFileName>FuncWinApiShutdownReboot.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EQAAgAAADBCAAAAIAAoAAAAAEABggDAAAEACgAAAAAA=</HashCode>
+      <FileName>FuncWinApiShutdownReboot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fMain.FuncWinApiTerminateProcess">
+    <Position X="0.5" Y="1.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAQAACAAAAAACAAAQAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>FuncWinApiTerminateProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fMain.FuncWinApiTotalPhys">
+    <Position X="0.5" Y="6.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAEQAAAQAAAACAAAABQACwBAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>FuncWinApiTotalPhys.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="fMain.ItemComparer" BaseTypeListCollapsed="true">
+    <Position X="7" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAEAAAAAAAAAAAAAAAEAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ItemComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="fMain.ViewControls">
+    <Position X="0.5" Y="4.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAABAQACAAAAAA=</HashCode>
+      <FileName>ViewControls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
