@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.lNameProcess = new System.Windows.Forms.Label();
             this.lBasePrior = new System.Windows.Forms.Label();
@@ -53,13 +52,14 @@
             this.label13 = new System.Windows.Forms.Label();
             this.lVersion = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pb_icon = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_icon)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 9);
+            this.label1.Location = new System.Drawing.Point(78, 8);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 13);
             this.label1.TabIndex = 0;
@@ -68,20 +68,18 @@
             // lNameProcess
             // 
             this.lNameProcess.AutoSize = true;
-            this.lNameProcess.Location = new System.Drawing.Point(89, 9);
+            this.lNameProcess.Location = new System.Drawing.Point(159, 8);
             this.lNameProcess.Name = "lNameProcess";
-            this.lNameProcess.Size = new System.Drawing.Size(75, 13);
+            this.lNameProcess.Size = new System.Drawing.Size(0, 13);
             this.lNameProcess.TabIndex = 1;
-            this.lNameProcess.Text = "lNameProcess";
             // 
             // lBasePrior
             // 
             this.lBasePrior.AutoSize = true;
             this.lBasePrior.Location = new System.Drawing.Point(78, 84);
             this.lBasePrior.Name = "lBasePrior";
-            this.lBasePrior.Size = new System.Drawing.Size(54, 13);
+            this.lBasePrior.Size = new System.Drawing.Size(0, 13);
             this.lBasePrior.TabIndex = 3;
-            this.lBasePrior.Text = "lBasePrior";
             // 
             // label3
             // 
@@ -106,18 +104,16 @@
             this.lWorkSet.AutoSize = true;
             this.lWorkSet.Location = new System.Drawing.Point(106, 97);
             this.lWorkSet.Name = "lWorkSet";
-            this.lWorkSet.Size = new System.Drawing.Size(51, 13);
+            this.lWorkSet.Size = new System.Drawing.Size(0, 13);
             this.lWorkSet.TabIndex = 5;
-            this.lWorkSet.Text = "lWorkSet";
             // 
             // lVirtualMemorySize
             // 
             this.lVirtualMemorySize.AutoSize = true;
             this.lVirtualMemorySize.Location = new System.Drawing.Point(129, 110);
             this.lVirtualMemorySize.Name = "lVirtualMemorySize";
-            this.lVirtualMemorySize.Size = new System.Drawing.Size(95, 13);
+            this.lVirtualMemorySize.Size = new System.Drawing.Size(0, 13);
             this.lVirtualMemorySize.TabIndex = 7;
-            this.lVirtualMemorySize.Text = "lVirtualMemorySize";
             // 
             // label5
             // 
@@ -133,9 +129,8 @@
             this.lPagedMemorySize.AutoSize = true;
             this.lPagedMemorySize.Location = new System.Drawing.Point(129, 123);
             this.lPagedMemorySize.Name = "lPagedMemorySize";
-            this.lPagedMemorySize.Size = new System.Drawing.Size(97, 13);
+            this.lPagedMemorySize.Size = new System.Drawing.Size(0, 13);
             this.lPagedMemorySize.TabIndex = 9;
-            this.lPagedMemorySize.Text = "lPagedMemorySize";
             // 
             // label6
             // 
@@ -149,16 +144,15 @@
             // lPID
             // 
             this.lPID.AutoSize = true;
-            this.lPID.Location = new System.Drawing.Point(35, 35);
+            this.lPID.Location = new System.Drawing.Point(105, 34);
             this.lPID.Name = "lPID";
-            this.lPID.Size = new System.Drawing.Size(27, 13);
+            this.lPID.Size = new System.Drawing.Size(0, 13);
             this.lPID.TabIndex = 11;
-            this.lPID.Text = "lPID";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(8, 35);
+            this.label7.Location = new System.Drawing.Point(78, 34);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(28, 13);
             this.label7.TabIndex = 10;
@@ -169,9 +163,8 @@
             this.lStartTime.AutoSize = true;
             this.lStartTime.Location = new System.Drawing.Point(144, 142);
             this.lStartTime.Name = "lStartTime";
-            this.lStartTime.Size = new System.Drawing.Size(54, 13);
+            this.lStartTime.Size = new System.Drawing.Size(0, 13);
             this.lStartTime.TabIndex = 13;
-            this.lStartTime.Text = "lStartTime";
             // 
             // label8
             // 
@@ -201,16 +194,15 @@
             // lSource
             // 
             this.lSource.AutoSize = true;
-            this.lSource.Location = new System.Drawing.Point(65, 48);
+            this.lSource.Location = new System.Drawing.Point(135, 47);
             this.lSource.Name = "lSource";
-            this.lSource.Size = new System.Drawing.Size(9, 13);
+            this.lSource.Size = new System.Drawing.Size(0, 13);
             this.lSource.TabIndex = 17;
-            this.lSource.Text = "i";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(8, 48);
+            this.label10.Location = new System.Drawing.Point(78, 47);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(58, 13);
             this.label10.TabIndex = 16;
@@ -221,9 +213,8 @@
             this.lUsetTime.AutoSize = true;
             this.lUsetTime.Location = new System.Drawing.Point(144, 155);
             this.lUsetTime.Name = "lUsetTime";
-            this.lUsetTime.Size = new System.Drawing.Size(35, 13);
+            this.lUsetTime.Size = new System.Drawing.Size(0, 13);
             this.lUsetTime.TabIndex = 19;
-            this.lUsetTime.Text = "label9";
             // 
             // label11
             // 
@@ -239,9 +230,8 @@
             this.lTotalTime.AutoSize = true;
             this.lTotalTime.Location = new System.Drawing.Point(144, 168);
             this.lTotalTime.Name = "lTotalTime";
-            this.lTotalTime.Size = new System.Drawing.Size(41, 13);
+            this.lTotalTime.Size = new System.Drawing.Size(0, 13);
             this.lTotalTime.TabIndex = 21;
-            this.lTotalTime.Text = "label12";
             // 
             // label13
             // 
@@ -255,32 +245,37 @@
             // lVersion
             // 
             this.lVersion.AutoSize = true;
-            this.lVersion.Location = new System.Drawing.Point(43, 22);
+            this.lVersion.Location = new System.Drawing.Point(113, 21);
             this.lVersion.Name = "lVersion";
-            this.lVersion.Size = new System.Drawing.Size(35, 13);
+            this.lVersion.Size = new System.Drawing.Size(40, 13);
             this.lVersion.TabIndex = 23;
-            this.lVersion.Text = "label9";
+            this.lVersion.Text = "v.0.0.0";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(8, 22);
+            this.label12.Location = new System.Drawing.Point(78, 21);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(47, 13);
             this.label12.TabIndex = 22;
             this.label12.Text = "Версия:";
             // 
-            // timer1
+            // pb_icon
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.pb_icon.Location = new System.Drawing.Point(11, 8);
+            this.pb_icon.Name = "pb_icon";
+            this.pb_icon.Size = new System.Drawing.Size(59, 52);
+            this.pb_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_icon.TabIndex = 24;
+            this.pb_icon.TabStop = false;
             // 
             // fProperty
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(372, 189);
+            this.ClientSize = new System.Drawing.Size(372, 188);
+            this.Controls.Add(this.pb_icon);
             this.Controls.Add(this.lVersion);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.lTotalTime);
@@ -310,6 +305,7 @@
             this.Name = "fProperty";
             this.Text = "Свойства";
             this.Load += new System.EventHandler(this.fProperty_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_icon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,6 +337,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label lVersion;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pb_icon;
     }
 }

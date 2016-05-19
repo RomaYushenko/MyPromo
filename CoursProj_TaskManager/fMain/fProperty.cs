@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
 
@@ -25,10 +19,14 @@ namespace fMain
 
         private void fProperty_Load(object sender, EventArgs e)
         {
+            infoProcess();
+            pb_icon.Image = loadIcon(tbDirect.Text).ToBitmap();
+        }
+
+        private void infoProcess()
+        {
             this.Text += " " + NameProg;
 
-
-            //Process[] ProcessList = Process.GetProcesses();
             Process[] ProcessListCurrent = Process.GetProcessesByName(NameProg);
             for (int i = 0; i < ProcessList.Length; i++)
             {
@@ -40,7 +38,7 @@ namespace fMain
                     lStartTime.Text = ProcessList[i].StartTime.ToString();
                     lUsetTime.Text = ProcessList[i].UserProcessorTime.ToString();
                     lTotalTime.Text = ProcessList[i].TotalProcessorTime.ToString();
-                    
+
 
                     if (ProcessList[i].BasePriority == 4)
                         lBasePrior.Text = "Idle";//Приоритет
@@ -49,38 +47,24 @@ namespace fMain
                     if (ProcessList[i].BasePriority == 13)
                         lBasePrior.Text = "High";//Приоритет
                     if (ProcessList[i].BasePriority == 24)
-                        lBasePrior.Text = "RealTime";//Приоритет
-
-                    //lWorkSet.Text = Math.Round((ProcessList[i].WorkingSet / 1024.0 / 1024.0), 2) + " mb";
-                    //lVirtualMemorySize.Text = Math.Round((ProcessList[i].VirtualMemorySize / 1024.0 / 1024.0), 2) + " mb";
-                    //lPagedMemorySize.Text = Math.Round((ProcessList[i].PagedMemorySize / 1024.0 / 1024.0), 2) + " mb";
-
-
-                    
+                        lBasePrior.Text = "RealTime";//Приоритет                  
 
                     var executable = Process.GetProcessById(ProcessList[i].Id);
-                    tbDirect.Text = executable.MainModule.FileName;
                     lVersion.Text = executable.MainModule.FileVersionInfo.FileVersion;
                     lSource.Text = executable.MainModule.FileVersionInfo.CompanyName;
-
-
-                }
-
-                
+                    tbDirect.Text = executable.MainModule.FileName;
+                  }
             }
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        /// <summary>
+        /// Методы для загрузки Иконки по пути
+        /// </summary>
+        /// <param name="path">путь к exe файлу</param>
+        /// <returns>возращает иконку</returns>
+        private Icon loadIcon(string path)
         {
-            for (int i = 0; i < ProcessList.Length; i++)
-            {
-                if (ProcessList[i].ProcessName == NameProg)
-                {
-                    lWorkSet.Text = Math.Round((ProcessList[i].WorkingSet / 1024.0 / 1024.0), 2) + " mb";
-                    lVirtualMemorySize.Text = Math.Round((ProcessList[i].VirtualMemorySize / 1024.0 / 1024.0), 2) + " mb";
-                    lPagedMemorySize.Text = Math.Round((ProcessList[i].PagedMemorySize / 1024.0 / 1024.0), 2) + " mb";
-                }
-            }
+            return new Icon(GetIcon.GetImageIcon(path), new Size(16, 16));
         }
     }
 }

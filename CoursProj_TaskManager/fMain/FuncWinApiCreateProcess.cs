@@ -82,19 +82,22 @@ namespace fMain
         /// <param name="flag"> буллевая переменная </param>
         public void CreateProcessInPC(string nameProg, bool flag)
         {
+            bool criate;
             STARTUPINFO si = new STARTUPINFO();
             PROCESS_INFORMATION pi = new PROCESS_INFORMATION();
             
             if (flag)
             {
-                CreateProcess(nameProg, 
+                criate = CreateProcess(nameProg, 
                     @"C:\", IntPtr.Zero, IntPtr.Zero, false, 0, IntPtr.Zero, null, ref si, out pi);
             }
             else
             {
-                CreateProcess( "C:\\WINDOWS\\SYSTEM32\\" + nameProg + ".exe",
+                criate = CreateProcess( "C:\\WINDOWS\\SYSTEM32\\" + nameProg + ".exe",
                     @"C:\", IntPtr.Zero, IntPtr.Zero, false, 0, IntPtr.Zero, null, ref si, out pi);
             }
+            if (!criate)
+                System.Windows.Forms.MessageBox.Show("Не удалось найти '"+ nameProg +"'. Проверте, правильно ли указано имя и  повторите попытку", nameProg, System.Windows.Forms.MessageBoxButtons.OK, System.Windows.Forms.MessageBoxIcon.Error);
         }
     }
 }
