@@ -12,7 +12,8 @@ namespace fMain
 {
     public partial class fCreateProcess : Form
     {
-              
+        ViewControls vc = new ViewControls();
+
         public fCreateProcess()
         {
             InitializeComponent();
@@ -46,34 +47,23 @@ namespace fMain
         }
 
         /// <summary>
-        /// Событие при нажатие на кнопку идет поиск и создание процесса
+        /// Событие при нажатие на кнопку открытие процесса
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void bCreateProcess_Click(object sender, EventArgs e)
         {
-            if (tbPathPog.Text != "")
+            vc.CreateProcess(PathFileName, tbPathPog, this);
+        }
+
+        private void tbPathPog_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode.Equals(Keys.Enter))
             {
-                bool flag;
-                FuncWinApiCreateProcess crProc = FuncWinApiCreateProcess.CreateInstanceCrProc();
-
-                PathFileName = tbPathPog.Text;
-                string[] str = PathFileName.Split('\\');
-                if (str[0] == "C:" || str[0] == "D:" || str[0] == "E:" || str[0] == "F:")
-                {
-                    flag = true;
-                    crProc.CreateProcessInPC(PathFileName, flag);
-                }
-                else
-                {
-                    flag = false;
-                    crProc.CreateProcessInPC(PathFileName, flag);
-                }
-                this.Close();
+                this.Cursor = Cursors.AppStarting;
+                vc.CreateProcess(PathFileName, tbPathPog, this);
             }
-            else
-                MessageBox.Show("Вы не вписали процесс который хотит запуссить", "Ошибка!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+            this.Cursor = Cursors.Default;
         }
     }
 }
