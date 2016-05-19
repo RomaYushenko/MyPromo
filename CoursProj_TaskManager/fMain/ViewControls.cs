@@ -6,6 +6,7 @@ namespace fMain
 {
     class ViewControls
     {
+        
 
         public void del(ListView lv)
         {
@@ -107,6 +108,37 @@ namespace fMain
                     }
                 }
             }
+        }
+
+        /// <summary>
+        /// Метод для поиск и создание процесса
+        /// </summary>
+        /// <param name="PathFileName">имя файла</param>
+        /// <param name="tbPathPog">Имя текст бокса</param>
+        /// <param name="F">Имя формы</param>
+        public void CreateProcess(string PathFileName, TextBox tbPathPog, Form F)
+        {
+            if (tbPathPog.Text != "")
+            {
+                bool flag;
+                FuncWinApiCreateProcess crProc = FuncWinApiCreateProcess.CreateInstanceCrProc();
+
+                PathFileName = tbPathPog.Text;
+                string[] str = PathFileName.Split('\\');
+                if (str[0] == "C:" || str[0] == "D:" || str[0] == "E:" || str[0] == "F:")
+                {
+                    flag = true;
+                    crProc.CreateProcessInPC(PathFileName, flag);
+                }
+                else
+                {
+                    flag = false;
+                    crProc.CreateProcessInPC(PathFileName, flag);
+                }
+                F.Close();
+            }
+            else
+                MessageBox.Show("Вы не вписали процесс который хотит запуссить", "Ошибка!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
     }
