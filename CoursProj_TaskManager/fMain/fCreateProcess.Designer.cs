@@ -117,6 +117,7 @@
             this.tbPathPog.Name = "tbPathPog";
             this.tbPathPog.Size = new System.Drawing.Size(351, 20);
             this.tbPathPog.TabIndex = 1;
+            this.tbPathPog.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbPathPog_KeyDown);
             // 
             // bFileName
             // 
