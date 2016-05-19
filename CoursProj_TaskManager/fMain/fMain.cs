@@ -33,8 +33,6 @@ namespace fMain
         private void fMain_Load(object sender, EventArgs e)
         {
             timerCountMemorStat.Enabled = true;
-            //timer1.Enabled = true;
-            //viewInf();
             FuncWinApiShutdownReboot.setBoss();
             viewInfNew();
             
@@ -161,7 +159,7 @@ namespace fMain
           /// <param name="e"></param>
           private void tsmiDelete_Click(object sender, EventArgs e)
           {
-                  vc.del(lvProcesses);
+                vc.del(lvProcesses);
           }
 
           /// <summary>
