@@ -21,8 +21,9 @@ namespace fMain
 
         public fMain()
         {
+
             InitializeComponent();
-            lvProcesses.ListViewItemSorter = itemComparer;    
+            lvProcesses.ListViewItemSorter = itemComparer;
         }
 
         /// <summary>

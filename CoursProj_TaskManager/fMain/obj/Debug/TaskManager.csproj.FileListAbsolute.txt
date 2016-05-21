@@ -22,3 +22,4 @@ D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.fCr
 D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.fProperty.resources
 D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.Properties.Resources.resources
 D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\TaskManager.csproj.GenerateResource.Cache
+D:\Учеба\ХАИ\MyPromo.git\CoursProj_TaskManager\fMain\obj\Debug\fMain.SplashScreen.resources

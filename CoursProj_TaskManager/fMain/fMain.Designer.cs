@@ -181,7 +181,7 @@
             // 
             this.выходToolStripMenuItem.Image = global::fMain.Properties.Resources.buttonLogoff;
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.ButtonLOGOFF_Click);
             // 
@@ -189,7 +189,7 @@
             // 
             this.выключениеToolStripMenuItem.Image = global::fMain.Properties.Resources.buttonShutdown;
             this.выключениеToolStripMenuItem.Name = "выключениеToolStripMenuItem";
-            this.выключениеToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.выключениеToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.выключениеToolStripMenuItem.Text = "Выключение";
             this.выключениеToolStripMenuItem.Click += new System.EventHandler(this.ButtonPOWEROFF_Click);
             // 
@@ -197,7 +197,7 @@
             // 
             this.перезагрузкаToolStripMenuItem.Image = global::fMain.Properties.Resources.buttonReboot;
             this.перезагрузкаToolStripMenuItem.Name = "перезагрузкаToolStripMenuItem";
-            this.перезагрузкаToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.перезагрузкаToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.перезагрузкаToolStripMenuItem.Text = "Перезагрузка";
             this.перезагрузкаToolStripMenuItem.Click += new System.EventHandler(this.ButtonREBOOT_Click);
             // 
@@ -239,7 +239,7 @@
             this.tsmiHelp.Image = global::fMain.Properties.Resources.help;
             this.tsmiHelp.Name = "tsmiHelp";
             this.tsmiHelp.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.tsmiHelp.Size = new System.Drawing.Size(142, 22);
+            this.tsmiHelp.Size = new System.Drawing.Size(152, 22);
             this.tsmiHelp.Text = "Помощь";
             this.tsmiHelp.Click += new System.EventHandler(this.tsmiHelp_Click);
             // 
@@ -247,7 +247,7 @@
             // 
             this.tsmiAuthor.Image = global::fMain.Properties.Resources.Author;
             this.tsmiAuthor.Name = "tsmiAuthor";
-            this.tsmiAuthor.Size = new System.Drawing.Size(142, 22);
+            this.tsmiAuthor.Size = new System.Drawing.Size(152, 22);
             this.tsmiAuthor.Text = "Об авторе";
             this.tsmiAuthor.Click += new System.EventHandler(this.tsmiAuthor_Click);
             // 
@@ -368,6 +368,7 @@
             this.bRefresh.Name = "bRefresh";
             this.bRefresh.Size = new System.Drawing.Size(23, 22);
             this.bRefresh.Text = "Обновить";
+            this.bRefresh.Click += new System.EventHandler(this.bRefresh_Click);
             // 
             // bSeveAs
             // 
@@ -377,6 +378,7 @@
             this.bSeveAs.Name = "bSeveAs";
             this.bSeveAs.Size = new System.Drawing.Size(23, 22);
             this.bSeveAs.Text = "Сохранить";
+            this.bSeveAs.Click += new System.EventHandler(this.tsmiSaveAs_Click);
             // 
             // bAddProsess
             // 
@@ -386,6 +388,7 @@
             this.bAddProsess.Name = "bAddProsess";
             this.bAddProsess.Size = new System.Drawing.Size(23, 22);
             this.bAddProsess.Text = "Добавить процесс";
+            this.bAddProsess.Click += new System.EventHandler(this.tsmiCreateProcess_Click);
             // 
             // bDelProsess
             // 
@@ -395,6 +398,7 @@
             this.bDelProsess.Name = "bDelProsess";
             this.bDelProsess.Size = new System.Drawing.Size(23, 22);
             this.bDelProsess.Text = "Уничтожить процесс";
+            this.bDelProsess.Click += new System.EventHandler(this.tsmiDelete_Click);
             // 
             // bInfoProsess
             // 
