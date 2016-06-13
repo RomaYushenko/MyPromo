@@ -163,7 +163,4 @@
   <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tyt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\tyt.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

@@ -18,8 +18,8 @@
       <FileName>fAuthor.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="fMain.fCreateProcess">
-    <Position X="10" Y="4.5" Width="3.75" />
+  <Class Name="fMain.fCreateProcess" Collapsed="true">
+    <Position X="10" Y="4.75" Width="3.75" />
     <Members>
       <Field Name="bClose" Hidden="true" />
       <Field Name="bCreateProcess" Hidden="true" />
@@ -37,12 +37,12 @@
       <Field Name="tbPathPog" Hidden="true" />
     </Members>
     <TypeIdentifier>
-      <HashCode>AAAAAgCAACAAABAIAACAQAACAAAEAABAACAAgQBAEAA=</HashCode>
+      <HashCode>AIAAAgCAACAAABAIAACAQAACAAAEAABAACAAgQBAEAA=</HashCode>
       <FileName>fCreateProcess.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="fMain.fMain">
-    <Position X="10" Y="7" Width="4.25" />
+  <Class Name="fMain.fMain" Collapsed="true">
+    <Position X="10" Y="7.5" Width="4.25" />
     <Members>
       <Field Name="bAddProsess" Hidden="true" />
       <Field Name="bDelProsess" Hidden="true" />
@@ -93,7 +93,7 @@
       <FileName>fMain.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="fMain.fProperty">
+  <Class Name="fMain.fProperty" Collapsed="true">
     <Position X="10" Y="2" Width="3.5" />
     <Members>
       <Field Name="components" Hidden="true" />
@@ -123,10 +123,9 @@
       <Field Name="lVirtualMemorySize" Hidden="true" />
       <Field Name="lWorkSet" Hidden="true" />
       <Field Name="tbDirect" Hidden="true" />
-      <Field Name="timer1" Hidden="true" />
     </Members>
     <TypeIdentifier>
-      <HashCode>8AQAAQAggCACgFAEAQCAAAgCAAAJIAAAACAEAAAAAAA=</HashCode>
+      <HashCode>8AAAAQAgwCBCgFAEAQCAAAgCAAAJAAAAACAEIAAAAAA=</HashCode>
       <FileName>fProperty.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -182,7 +181,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="fMain.FuncWinApiTerminateProcess">
-    <Position X="0.5" Y="1.75" Width="5.5" />
+    <Position X="0.5" Y="1.5" Width="5.5" />
     <TypeIdentifier>
       <HashCode>AAAABACAAAAQAACAAAAAACAAAQAAAAAAAgAAAAAAAAA=</HashCode>
       <FileName>FuncWinApiTerminateProcess.cs</FileName>
@@ -204,9 +203,9 @@
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
   <Class Name="fMain.ViewControls">
-    <Position X="0.5" Y="4.75" Width="4.25" />
+    <Position X="0.5" Y="4.5" Width="4.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAABAQACAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAgAAABAQgCAAAAAA=</HashCode>
       <FileName>ViewControls.cs</FileName>
     </TypeIdentifier>
   </Class>

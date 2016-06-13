@@ -15,6 +15,7 @@ namespace fMain
         public SplashScreen()
         {
             InitializeComponent();
+
             Timer t = new Timer();
             t.Interval = 6000;
             t.Start();
@@ -32,7 +33,9 @@ namespace fMain
         }
         void t_Tick(object sender, EventArgs e)
         {
+            //диспоз картинки для гифки
             Close();
+
         }
     }
 }

@@ -193,16 +193,6 @@ namespace fMain.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tyt {
-            get {
-                object obj = ResourceManager.GetObject("tyt", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Команда_выполнить_в_Windows_7 {
             get {
                 object obj = ResourceManager.GetObject("Команда-выполнить-в-Windows-7", resourceCulture);

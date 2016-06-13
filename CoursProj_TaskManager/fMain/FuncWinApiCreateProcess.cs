@@ -51,15 +51,12 @@ namespace fMain
             public IntPtr hStdError;
         }
 
-
-
         public struct SECURITY_ATTRIBUTES
         {
             public int length;
             public IntPtr lpSecurityDescriptor;
             public bool bInheritHandle;
         }
-
 
         private static volatile FuncWinApiCreateProcess singleton;
         private static readonly object syncroot = new object();

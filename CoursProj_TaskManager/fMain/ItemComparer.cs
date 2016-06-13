@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Collections;
-using System.Reflection;
-using System.Drawing;
 
 namespace fMain
 {
